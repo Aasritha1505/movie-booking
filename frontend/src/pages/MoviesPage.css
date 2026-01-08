@@ -24,18 +24,32 @@
   gap: 20px;
 }
 
-.logout-button {
-  background: rgba(255, 255, 255, 0.2);
+.user-info span {
+  background: blueviolet;
   color: white;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.logout-button {
+  background: white;
+  color: #667eea;
+  border: 1px solid white;
   padding: 8px 16px;
   border-radius: 6px;
   cursor: pointer;
-  transition: background 0.3s;
+  transition: all 0.3s;
+  font-weight: 600;
+  font-size: 14px;
 }
 
 .logout-button:hover {
-  background: rgba(255, 255, 255, 0.3);
+  background: blueviolet;    
+  color: white;
+  border: 1px solid #667eea;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .content {
